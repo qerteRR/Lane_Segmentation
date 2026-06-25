@@ -43,8 +43,6 @@ src/predict.py                      - код предсказания
 src/local_app.py                    - локальный интерфейс
 models/unet_tusimple_1000.keras     - обученная модель
 results/example_segmentation_1000.png - пример результата
-notebooks/                          - ноутбуки Google Colab
-```
 
 ## Дальнейшее развитие
 
