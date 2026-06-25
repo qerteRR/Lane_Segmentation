@@ -1,0 +1,29 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.zip
+
+# Local datasets and model outputs
+data/
+datasets/
+TUSimple/
+*.h5
+*.keras
+*.ckpt
+checkpoints/
+outputs/
+
+# Keep the trained demo model that is small enough for GitHub.
+!models/
+!models/unet_tusimple_1000.keras
+
+# Generated local notebooks copied during experiments.
+/Lane_Segmentation_TuSimple_NoDrive.ipynb
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
